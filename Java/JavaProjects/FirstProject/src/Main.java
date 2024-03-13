@@ -22,6 +22,19 @@ public class Main {
             System.out.println(y-x);
             double zMinY = (z-y);
             System.out.println("var zMinY = "+zMinY);
+
+            //variable swap
+            String cupA = "Water";
+            String cupB = "Juice";
+
+            System.out.println(cupA);
+            System.out.println(cupB);
+
+            String temp = cupA;
+            cupA=cupB;
+            cupB=temp;
+
+            System.out.println("A = "+cupA+" & B = "+cupB);
         }
     }
 }
