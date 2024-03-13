@@ -1,40 +1,32 @@
+import java.util.Scanner;
+
 public class Main {
-    public static void main(String[] args){
-        System.out.print("Hello\n");
-        System.out.print("Does this work ?");
-        System.out.println("\nJava is funky"); //commenty comment
-        System.out.println ("Wawa\nWewe");
+    public static void main(String[] args) {
 
-        //time for variables
-
-        boolean mytest = true;
-        var e = "Hi?"; //figure out why var exists later
-        String E = e;
-        int x = 8;
-        double y = 2.25;
-        float z = 1.48f; //why do float need a special thing ;( oh well
-        if (mytest) {
-            System.out.println("Did I do this correctly ?");
-            System.out.println("var e = "+e);
-            System.out.println("var E = "+E);
-            System.out.println(x);//what about numbers
-            System.out.println(y);
-            System.out.println(y-x);
-            double zMinY = (z-y);
-            System.out.println("var zMinY = "+zMinY);
-
-            //variable swap
-            String cupA = "Water";
-            String cupB = "Juice";
-
-            System.out.println(cupA);
-            System.out.println(cupB);
-
-            String temp = cupA;
-            cupA=cupB;
-            cupB=temp;
-
-            System.out.println("A = "+cupA+" & B = "+cupB);
+        //user input
+        /*
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is your name ?");
+        String name = scanner.nextLine();
+        System.out.print("Gimme your age ");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.print("Tell me something interesting about you ");
+        String answer = scanner.next();
+        System.out.println("Hello " + name);
+        if (age > 40) {
+            System.out.println("Pretty old");
+        } else if (age <= 16) {
+            System.out.println("You're so young");
+        } else {
+            System.out.println("Prime time of your life eh ?");
         }
+        System.out.println("This is what you think is interesting about you : " + answer);
+        */
+
+        //arithmetic
+        int relatives = 16;
+        relatives ++;
+        System.out.println(relatives);
     }
 }
